@@ -1,0 +1,32 @@
+:root  {
+    --background-colour: #1E1E1E;
+    --font-primary-colour: #FEFFFF;
+    --primary-colour: #BA0BF9;
+}
+* {
+    margin: 0;
+    padding: 30px 20px;
+    font-family: "Antonio", sans-serif;
+    font-weight: 400;
+    color: var(--font-primary-colour);
+}
+body {
+    background-color: var(--background-colour);
+    width:fit-content;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    color: #FD6F00;
+    font-weight: 700;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+}
+#cv{
+    color: white;
+    background-color: #FD6F00;
+}
