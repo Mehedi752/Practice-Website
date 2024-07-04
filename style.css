@@ -8,7 +8,7 @@
 
 * {
     margin: 0;
-    padding: 10px;
+    padding: 0;
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -18,6 +18,7 @@
 body {
     background-color: var(--background-colour);
     width: fit-content;
+    padding: 80px;
 }
 
 .nav {
@@ -28,27 +29,47 @@ body {
 .left {
     color: #FD6F00;
     font-weight: 700;
-    padding-left: 20px;
+    /* padding-left: 20px; */
 }
 
 .right {
     display: flex;
+    /* gap: 10px; */
     justify-content: space-between;
 }
 
-#cv {
-    color: white;
-    background-color: #FD6F00;
+#option {
+    padding: 10px;
 }
 
+.cv {
+    background-color: #FD6F00;
+    padding: 10px;
+    /* padding: 10px;
+    font-size: 12px;
+    margin-bottom: 0px; */
+}
+
+/* .banner-container{
+    margin-top: 50px;
+} */
+
 .banner-left {
+    margin-top: 150px;
     font-weight: 800;
     font-size: 40px;
 }
 
 .heading {
     display: flex;
-    padding-top: 10px;
+    gap: 10px;
+    /* padding-top: 10px; */
+    /* justify-content: space-between; */
+}
+
+#star {
+    width: 35px;
+    height: 35px;
 }
 
 #khulna {
@@ -59,18 +80,21 @@ body {
     font-size: 18px;
     font-weight: 400;
     font-weight: lighter;
-    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .title {
     display: flex;
+    /* justify-content: space-between; */
+    gap: 10px;
     font-size: 24px;
     font-weight: 300;
-    padding: 0px 10px;
+    padding-bottom: 10px;
 }
 
 .choice {
     margin-top: 10px;
+    margin-bottom: 10px;
     margin-left: 10px;
     width: 300px;
     height: 60px;
@@ -82,18 +106,22 @@ body {
 
 .portfolio-icon p {
     font-size: 17px;
+    padding-top: 10px;
 }
 
 #hire {
     font-size: 17px;
+    padding-top: 20px;
+    padding-left: 50px;
     font-weight: 400;
 }
 
 .check-icon {
-    width: 35px;
+    width: 25px;
     height: 35px;
-    padding: 0px 10px;
-    /* margin-right: 10px; */
+    /* padding: 0px 10px; */
+    /* margin-bottom: -20px; */
+    margin-left: -10px;
 }
 
 .portfolio-icon {
@@ -103,15 +131,17 @@ body {
     background-color: #FD6F00;
     border-radius: 100px;
     padding-right: 20px;
+    margin-left: 10px;
 }
 
 .banner-container {
     display: flex;
     justify-content: space-between;
+    gap: 50px;
 }
 
 .about {
-    padding: 60px 30px;
+    padding: 60px 0px;
 }
 
 #title {
@@ -136,7 +166,22 @@ body {
 
 }
 
+#pic {
+    height: 350px;
+    width: 500;
+    background-color: #FD6F001A;
+    border-radius: 50%;
+}
+
+.picture {
+    margin-top: 120px;
+    margin-right: 180px;
+    /* width: 600px;
+    height: 600px;  */
+}
+
 .final-banner {
+    margin-top: 100px;
     display: flex;
     justify-content: space-between;
 }
@@ -156,23 +201,25 @@ body {
     font-size: 20px;
     font-weight: 400;
     text-align: center-top;
-    /* padding-left: 70px; */
-    /* line-height: 20px; */
-    /* padding-bottom: 20px; */
 }
 
 /* End of Header & Banner Section. */
 
 .experience-container {
-    /* width: 1440px; */
+
     padding: 0px;
     margin: 0px;
-    /* height: 632px; */
     padding: 100px;
-    /* padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 100px; */
     background-image: linear-gradient(to bottom right, rgba(255, 178, 71, 0.112), rgba(255, 107, 99, 0.112), rgba(184, 106, 223, 0.1));
+}
+
+.experience-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-details {
+    padding-top: 70px;
 }
 
 #experience-title {
@@ -181,15 +228,15 @@ body {
 }
 
 #experience-desc {
+    padding-top: 10px;
     font-style: normal;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
 }
 
-.experience-container {
-    display: flex;
-    justify-content: space-between;
-}
+/* .designer-container {
+    gap: 20px;
+} */
 
 
 .top {
@@ -197,6 +244,7 @@ body {
     font-weight: 400;
     display: flex;
     justify-content: space-between;
+    /* margin-top: 50px; */
 }
 
 .bottom {
@@ -209,14 +257,15 @@ body {
 .third {
     border-bottom: 1px solid white;
     border-left: 10px;
+    padding: 20px 0px;
 }
 
-.awards-heading{
+.awards-heading {
     margin-top: 60px;
     text-align: center;
 }
 
-.first-award{
+.first-award {
     padding: 40px;
     background-color: black;
     margin: 60px 100px;
@@ -227,8 +276,91 @@ body {
     justify-content: space-between;
 }
 
-.second-award{
+.second-award {
     padding: 40px;
     background-color: black;
     margin: 60px 100px;
+}
+
+.portfolio-heading {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.top-side {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 80px;
+}
+
+.bottom-side {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 80px;
+}
+
+.icons-design2 {
+    background-color: #FD6F00;
+    padding: 10px;
+}
+
+.icons-design1,
+.icons-design3,
+.icons-design4 {
+    padding: 10px;
+    background-color: black;
+}
+
+.portfolio-icons {
+    padding: 0px 150px;
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-details,
+.bottom-side {
+    margin-top: 50px;
+}
+
+.first-line,
+.second-line,
+.third-line {
+    padding: 10px 0px;
+}
+
+.portfolio-desc {
+    margin-top: 50px;
+}
+
+.first-line {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.footer-header {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.footer-form {
+    margin-top: 40px;
+    background-color: #FD6F001A;
+    padding: 40px 80px;
+}
+
+.name {
+    /* border-bottom: 1px solid white; */
+}
+
+.line {
+    border: none;
+    border-top: 2px solid black;
+}
+
+.footer-details {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
 }
