@@ -18,6 +18,14 @@
 body {
     background-color: var(--background-colour);
     width: fit-content;
+    /* padding: 80px; */
+}
+
+.main-div {
+    width: 100%;
+}
+
+.banner-page {
     padding: 80px;
 }
 
@@ -260,6 +268,13 @@ body {
     padding: 20px 0px;
 }
 
+/* End of experience container. */
+
+.awards-page {
+    padding: 80px;
+}
+
+
 .awards-heading {
     margin-top: 60px;
     text-align: center;
@@ -280,6 +295,13 @@ body {
     padding: 40px;
     background-color: black;
     margin: 60px 100px;
+}
+
+/* End of Awards Section. */
+
+
+.portfolio-container {
+    padding: 0px 80px;
 }
 
 .portfolio-heading {
@@ -339,6 +361,12 @@ body {
     font-weight: 400;
 }
 
+/* End of Portfolio Section. */
+
+.footer-page {
+    padding: 0px 150px;
+}
+
 .footer-header {
     margin-top: 100px;
     text-align: center;
@@ -347,11 +375,45 @@ body {
 .footer-form {
     margin-top: 40px;
     background-color: #FD6F001A;
-    padding: 40px 80px;
+    padding: 40px 100px;
 }
 
-.name {
-    /* border-bottom: 1px solid white; */
+input[type=text] {
+    width: 100%;
+    padding: 12px 0px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background: none;
+    border-bottom: 1px solid;
+}
+
+
+input[type=email] {
+    width: 100%;
+    padding: 12px 0px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background: none;
+    border-bottom: 1px solid white;
+}
+
+input[type=message] {
+    width: 100%;
+    padding-bottom: 50px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background: none;
+    border-bottom: 1px solid white;
+}
+
+.form-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 420px;
+    margin-bottom: 20px;
 }
 
 .line {
@@ -363,4 +425,9 @@ body {
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
+}
+
+.attach {
+    margin-top: 10px;
+    display: flex;
 }
