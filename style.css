@@ -18,7 +18,7 @@
 body {
     background-color: var(--background-colour);
     /* width: fit-content; */
-    padding: 80px 100px;
+    padding: 80px;
 }
 
 /* .main-div {
@@ -227,7 +227,7 @@ body {
 }
 
 .experience-details {
-    padding-top: 70px;
+    padding-top: 80px;
     padding-left: 70px;
 }
 
@@ -245,6 +245,8 @@ body {
 
 .designer-container {
     padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 
